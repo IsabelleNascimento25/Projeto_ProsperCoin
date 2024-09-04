@@ -10959,7 +10959,10 @@ left: -20px;
     left: -36px; /* Remove o deslocamento lateral */
     display: block; /* Assegura que a imagem esteja dentro do fluxo normal do documento */
   }
-
+  #desenvolvedores {
+    max-width: 90%; /* Limita a largura máxima a 90% da tela */
+    margin: 0 auto; /* Centraliza o elemento */
+  }
   p.text-muted {
     font-size: 1em; /* Ajuste do tamanho da fonte para o parágrafo */
     padding: 0 10px; /* Adiciona um pouco de espaço ao redor do texto para melhorar a leitura */
