@@ -10950,26 +10950,31 @@ p {
   margin-top: -50px;
 left: -20px;
 }
-@media (max-width: 768px) { /* Ajuste para telas menores que 768px de largura */
+@media (max-width: 768px) { 
+  /* Ajuste para telas menores que 768px de largura */
+  
   .fa-stack img {
+    margin-bottom: 50px; /* Adiciona 20px de espaço abaixo de cada parágrafo */
     margin-top: -45px; /* Remove o deslocamento superior */
-    left: -10px; /* Remove o deslocamento lateral */
+    left: -45px; /* Remove o deslocamento lateral */
     display: block; /* Assegura que a imagem esteja dentro do fluxo normal do documento */
   }
+
+  p.text-muted {
+    font-size: 1em; /* Ajuste do tamanho da fonte para o parágrafo */
+    padding: 0 10px; /* Adiciona um pouco de espaço ao redor do texto para melhorar a leitura */
+    margin-bottom: 20px; /* Adiciona 20px de espaço abaixo de cada parágrafo */
+  }
 }
-.col-md-4 {
-  width: 100%; /* Cada coluna ocupa 100% da largura */
-  margin-bottom: 20px; /* Espaço entre os elementos */
-  text-align: center; /* Centraliza o texto */
-}
+
 h4.my-3{
-  margin-bottom: 50px; /* Adiciona 20px de espaço abaixo de cada parágrafo */
+  margin-bottom: 70px; /* Adiciona 20px de espaço abaixo de cada parágrafo */
 
 }
 
 p.text-muted {
   font-size: 1em; /* Ajuste do tamanho da fonte para o parágrafo */
-  margin-bottom: 20px; /* Adiciona 20px de espaço abaixo de cada parágrafo */
+  margin-bottom: 60px; /* Adiciona 20px de espaço abaixo de cada parágrafo */
   padding: 0 10px; /* Adiciona um pouco de espaço ao redor do texto para melhorar a leitura */
 }
 
