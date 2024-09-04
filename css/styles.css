@@ -10955,8 +10955,8 @@ left: -20px;
   
   .fa-stack img {
     margin-bottom: 50px; /* Adiciona 20px de espaço abaixo de cada parágrafo */
-    margin-top: -45px; /* Remove o deslocamento superior */
-    left: -45px; /* Remove o deslocamento lateral */
+    margin-top: -55px; /* Remove o deslocamento superior */
+    left: -36px; /* Remove o deslocamento lateral */
     display: block; /* Assegura que a imagem esteja dentro do fluxo normal do documento */
   }
 
