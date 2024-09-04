@@ -84,6 +84,35 @@
 *::after {
   box-sizing: border-box;
 }
+body{
+  width: auto;
+}
+/* Garanta que o ícone de alternância esteja posicionado corretamente */
+.navbar-toggler {
+  position: absolute;
+  top: 15px; /* Ajuste conforme necessário */
+  right: 15px; /* Ajuste conforme necessário */
+  border: none; /* Opcional, remove a borda padrão */
+  background: transparent; /* Opcional, torna o fundo transparente */
+}
+
+/* Certifique-se de que o navbar está bem posicionado */
+.navbar {
+  position: relative;
+}
+
+/* Adicione uma margem superior ao conteúdo colapsável para evitar sobreposição */
+#navbarResponsive {
+  margin-top: 50px; /* Ajuste conforme necessário */
+}
+
+/* Para garantir que o ícone da navbar-toggler é visível */
+.navbar-toggler-icon {
+  background-image: url('path/to/your/icon.png'); /* Adicione o caminho para o ícone se estiver usando uma imagem personalizada */
+  background-size: 1.5em 1.5em; /* Ajuste o tamanho do ícone */
+}
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   :root {
